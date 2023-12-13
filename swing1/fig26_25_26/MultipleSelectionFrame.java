@@ -30,7 +30,7 @@ public class MultipleSelectionFrame extends JFrame
          ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
       add(new JScrollPane(colorJList)); // add list with scrollpane
 
-      copyJButton = new JButton("Copy >>>"); 
+      copyJButton = new JButton("Copia >>>"); 
       copyJButton.addActionListener(
          new ActionListener() // anonymous inner class 
          {  

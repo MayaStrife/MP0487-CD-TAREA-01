@@ -8,9 +8,9 @@ public class Addition
    {
       // obtain user input from JOptionPane input dialogs
       String firstNumber = 
-         JOptionPane.showInputDialog("Enter first integer");
+         JOptionPane.showInputDialog("Primer integer");
       String secondNumber =
-          JOptionPane.showInputDialog("Enter second integer");
+          JOptionPane.showInputDialog("Segundo integer");
 
       // convert String inputs to int values for use in a calculation
       int number1 = Integer.parseInt(firstNumber); 
